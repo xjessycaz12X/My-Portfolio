@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessy Castaneda Portfolio</title>
+    <!-- Added CSS reset style sheet first so I was free from the constrains of any web browsers that have default styling -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- This section consist of the main header and nav bar with links to: About Me, Work, Contact Me, and my Resume -->
+    <!-- Set up so UI scrolls to corresponding section for user convenience -->
+    <header class="main-header">
+      <h1>Jessy Castaneda</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#About-Me">About Me</a>
+          </li>
+          <li>
+            <a href="#Work">Work</a>
+          </li>
+          <li>
+            <a href="#Contact-Me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- *Need an alt tag for photo* -->
+    <img class="hero" />
+
+    <!-- This section consists of a h2 header "About Me" and a short paragraph about me -->
+    <main>
+      <section id="About-Me" class="About-Me" class="card">
+        <h2>About Me</h2>
+        <p>
+          Hello my name is Jessy Castaneda. I am 22 years old and I am trying to
+          break into the world of tech and also pick up new skills. I hope to in
+          the future own my own business and that way I can build my own website
+          for my business and for other businesses. I hope to pick up the best
+          skills and continue learning. I also have some of my own work to show
+          off!
+        </p>
+      </section>
+
+      <!-- This section contains projects that I have published to GitHub pages -->
+      <!-- When the user clicks the images within each project they will be taken directly to the deloyed application  -->
+      <section id="Work" class="Work" class="card">
+        <h2>Work</h2>
+
+        <div class="container" id="project-grid">
+          <a target="blank" href="">
+            <p>Prework Study Guide</p>
+            <img src="   " alt="Placeholder Image 300x200" />
+          </a>
+          <a
+            target="blank"
+            href="https://xjessycaz12x.github.io/Horiseon-Refactor/"
+          >
+            <p>Code Refactoring</p>
+            <img src="" alt="Placeholder Image 300x200" />
+          </a>
+          <a
+            target="blank"
+            href="https://xjessycaz12x.github.io/Password-Generator/"
+          >
+            <p>Password Generator</p>
+            <img src="" alt="Placeholder Image 300x200" />
+          </a>
+          <a target="blank" href="https://xjessycaz12x.github.io/code-quizz/">
+            <p>Coding Quiz</p>
+            <img
+              src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png"
+              alt="Placeholder Image 300x200"
+            />
+          </a>
+          <a target="blank" href="https://xjessycaz12x.github.io/05-scheduler/">
+            <p>Work Day Scheduler</p>
+            <img
+              src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png"
+              alt="Placeholder Image 300x200"
+            />
+          </a>
+          <a target="blank" href="">
+            <p>Weather Dashboard</p>
+            <img src="" alt="Placeholder Image 300x200" />
+          </a>
+          <!-- Projects -->
+          <!-- <h2 id>Projects</h2> -->
+          <a target="blank" href="https://xjessycaz12x.github.io/dog-journal/">
+            <p>Dog Journal (Project 1)</p>
+            <img
+              src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png"
+              alt="Placeholder Image 300x200"
+            />
+          </a>
+          <a
+            target="blank"
+            href="https://mr-done-acabed3e9294.herokuapp.com/login"
+          >
+            <p>Mr. Get It Done (Project-2)</p>
+            <img
+              src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png"
+              alt="Placeholder Image 300x200"
+            />
+          </a>
+          <a target="blank" href="">
+            <p>Project-3</p>
+            <img
+              src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png"
+              alt="Placeholder Image 300x200"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- This section consists of my contact information: phone number, email, GitHub, Linkden, and Twitter -->
+      <!-- When the user clicks on "GitHub", "Linkden", or "Twitter" they will be taken direclty to those URLs -->
+      <section id="Contact-Me" class="Contact-Me" class="card">
+        <h2>Contact Me</h2>
+        <ul>
+          <li>Check it out!</li>
+          <li>jessy12@icloud.com</li>
+          <li>
+            <a target="blank" href="https://github.com/xjessycaz12X">GitHub</a>
+          </li>
+          <li></li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- This is the footer. It contains my copyright. -->
+    <footer>
+      <p>&copy; Copyright Jessy:)</p>
+    </footer>
+  </body>
 </html>
