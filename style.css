@@ -201,8 +201,8 @@ footer {
 /* This id selector is where I added the attributes to the screenshot I added to "Project 1" and also where the URL to the screenshot is linked */
 #p1-img {
   width: 600px;
-  height: 400px;
-  background-image: url("images/portfolio image.jpg");
+  height: 600px;
+  background-image: url("images/dogjournal.png");
   background-position: center;
   background-size: cover;
   margin: auto;
