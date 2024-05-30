@@ -20,7 +20,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-![Screenshot-week-5-Challenge](<images/Screenshot 2024-05-29 214342.png>)
+![Screenshot-week-5-Challenge](images/portfolio.png)
 
 # Links
 
